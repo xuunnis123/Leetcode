@@ -3,7 +3,7 @@
  *
  * [6] ZigZag Conversion
  */
-
+// mindset:https://xuunnis1011.medium.com/leetcode-6-zigzag-conversion-19be11de2122
 // @lc code=start
 class Solution {
 public:

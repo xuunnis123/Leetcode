@@ -3,7 +3,7 @@
  *
  * [5] Longest Palindromic Substring
  */
-
+// mindset:https://xuunnis1011.medium.com/leetcode-5-longest-palindromic-substring-81492361a090
 // @lc code=start
 class Solution {
 public:
