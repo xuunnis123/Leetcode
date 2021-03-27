@@ -5,6 +5,7 @@ LeetCode
 [![hackmd-github-sync-badge](https://hackmd.io/OdaQL4wCQ96PBUSbnSE5iQ/badge)](https://hackmd.io/OdaQL4wCQ96PBUSbnSE5iQ)
 題目
 ---
+- [Leetcode #202. Happy Number](/6ePzEbXaTPStfwZ8_NOqlQ) | 2021.03.27
 - [Leetcode #74. Search a 2D Matrix](/d7fLLVz1R7G6UPGKQlodgg) | 2021.03.17
 - [Leetcode #70. Climbing Stairs](/lEu_doZRTg28oSD2I8Oreg) | 2021.03.10
 - [Leetcode #324 Wiggle Sort II](/AjnDeahcQQiSDuVO8A1p9w) | 2021.03.07
