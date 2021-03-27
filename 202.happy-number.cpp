@@ -8,9 +8,6 @@
 class Solution {
 public:
     bool isHappy(int n) {
-       bool result=false;
-       int buffer=n;
-       int remain=1;
        int thisTime=n;
        if(n==1)return true;
        do{
