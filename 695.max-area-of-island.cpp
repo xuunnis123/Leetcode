@@ -12,60 +12,24 @@ public:
     int calculate(vector<vector<int>>& grid, int i, int j, int row,int col){
         
         int buf_up, buf_down, buf_left, buf_right = 0;
-        cout<<"i="<<i<<";j="<<j<<endl;
-        
+       
         if(i<0 || j<0 || i >= row || j>= col || grid[i][j] == 0 || mark[i][j] == true) return 0;
 
         if(mark[i][j] == false){
-            cout<<"into mark false\n";
             mark[i][j] = true;
-            cout<<"mark["<<i<<"]["<<j<<"]="<<mark[i][j]<<"\n";
         }
-
-        if(grid[i][j] == 0) return 0;
-
         int c_buffer = 1;
-        cout<<"initial c_buffer="<<c_buffer<<endl;
+       
         //up
-        if((i-1)>=0 && grid[i-1][j] == 1 && mark[i-1][j] == false){
-            cout <<"up" <<endl;
-            cout<<"before buf_up="<<buf_up<<"" <<endl;
             buf_up = calculate(grid, i-1, j, row, col);
-            cout<<"after buf_up="<<buf_up<<"" <<endl;
-            //cout<<"buffer="<<buffer<<endl;
-        }
         //down
-        if((i+1)<row && grid[i+1][j] == 1 && mark[i+1][j] == false){
-            cout <<"down" <<endl;
-            
-            cout<<"before buf_down="<<buf_down<<"" <<endl;
-            buf_down = calculate(grid, i+1, j, row, col);
-            cout<<"after buf_down="<<buf_down<<"" <<endl;
-            //cout<<"buffer="<<buffer<<endl;
-        }
+            buf_down = calculate(grid, i+1, j, row, col);   
         //left
-        if((j-1)>=0 && grid[i][j-1] == 1 && mark[i][j-1] == false){
-            cout <<"left" <<endl;
-           
-            cout<<"before bufbuf_left_up="<<buf_left<<"" <<endl;
             buf_left = calculate(grid, i, j-1, row, col);
-            cout<<"after buf_left="<<buf_left<<"" <<endl;
-            //cout<<"buffer="<<buffer<<endl;
-        }
         //right
-        if((j+1)<col && grid[i][j+1] == 1 && mark[i][j+1] == false){
-            cout <<"right" <<endl;
-            
-            cout<<"before buf_right="<<buf_right<<"" <<endl;
             buf_right = calculate(grid, i, j+1, row, col);
-            cout<<"after buf_right="<<buf_right<<"" <<endl;
-            //cout<<"buffer="<<buffer<<endl;
-        }
-        cout<<buf_up <<"|"<< buf_down <<"|"<< buf_left <<"|"<< buf_right <<"\n";
         
-        c_buffer = c_buffer+ buf_up + buf_down + buf_left + buf_right;
-        cout<<"end c_buffer="<<c_buffer<<endl;
-  
+        c_buffer += buf_up + buf_down + buf_left + buf_right;
        
         return c_buffer;
     }
@@ -82,7 +46,6 @@ public:
                 if(grid[i][j]==1){
                     
                     buffer = calculate(grid,i,j,row,col);
-                    cout<<"final_buffer="<<buffer<<endl;
                     if(buffer>max){  
                         max=buffer;
                         
