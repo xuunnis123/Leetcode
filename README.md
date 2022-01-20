@@ -5,6 +5,7 @@ LeetCode
 [![hackmd-github-sync-badge](https://hackmd.io/OdaQL4wCQ96PBUSbnSE5iQ/badge)](https://hackmd.io/OdaQL4wCQ96PBUSbnSE5iQ)
 題目
 ---
+- [Leetcode #875 Koko Eating Bananas](/Z3-ABD88TEyU4kCO1UHQVA) | 2022.01.20
 - [Leetcode #695. Max Area of Island](/XRS92Rn0TOSzu66F8QfZ9w) | 2021.05.23
 - [Leetcode #17. Letter Combinations of a Phone Number](/P6roOL8bS0qONnq0bZx6MA) | 2021.05.21
 - [Leetcode #21. Merge Two Sorted Lists](/D4uknyGuQjasB2fBn_GQZg) | 2021.04.30
