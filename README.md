@@ -5,6 +5,7 @@ LeetCode
 [![hackmd-github-sync-badge](https://hackmd.io/OdaQL4wCQ96PBUSbnSE5iQ/badge)](https://hackmd.io/OdaQL4wCQ96PBUSbnSE5iQ)
 題目
 ---
+- [Leetcode #992. Subarrays with K Different Integers](/EXb05zF0RNaPDvZMcFBcfA) | 2022.04.23
 - [Leetcode #930. Binary Subarrays With Sum](/_8yG2cNDTk6CDdiPDZwzRA) | 2022.04.23
 - [Leetcode #1004. Max Consecutive Ones III](/CU_sOZ1KSq67OA9EYxhjMQ) | 2022.04.22
 - [Leetcode #1234. Replace the Substring for Balanced String](/0aCopRpPQRSpFJ0-mk1-9A) | 2022.04.16
