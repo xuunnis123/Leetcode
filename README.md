@@ -1,6 +1,6 @@
 LeetCode
 ===
-
+!!! NO LONGER UPDATED ON HACKMD !!!
 ###### tags: `leetcode`
 [![hackmd-github-sync-badge](https://hackmd.io/OdaQL4wCQ96PBUSbnSE5iQ/badge)](https://hackmd.io/OdaQL4wCQ96PBUSbnSE5iQ)
 題目
